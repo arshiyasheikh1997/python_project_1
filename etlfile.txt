@@ -1,0 +1,39 @@
+Student	StudentID INT, StudentName VARCHAR(30), Age INT, City VARCHAR(20), Marks INT	
+1,'Amit',20,'Pune',85 
+2,'Riya',22,'Delhi',90
+3,'Sam',21,'Mumbai',75 
+4,'Neha',23,'Pune',88 
+5,'Raj',20,'Chennai',70
+6,'Rahul',20,'madhurai',58
+7,'Ganesh',25, 'Nagpur', 65
+8, 'Gita', 26, 'Mumbai',87
+9, 'mahima',30, 'Kota', 89
+10, 'nidhi',32, Jaipur', 90
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Department	DeptID INT, DeptName VARCHAR(30), Location VARCHAR(20)	1,'IT','Pune' | 2,'HR','Mumbai' | 3,'Finance','Delhi' | 4,'Admin','Chennai'
+Product	ProductID INT, ProductName VARCHAR(30), Price DECIMAL(10,2), Category VARCHAR(20)	101,'Laptop',50000,'Electronics' | 102,'Phone',25000,'Electronics' | 103,'Table',5000,'Furniture' | 104,'Chair',2000,'Furniture'
+Orders	OrderID INT, CustomerName VARCHAR(30), Amount DECIMAL(10,2), OrderDate DATE	1,'Amit',1200,'2023-01-12' | 2,'Riya',500,'2023-02-15' | 3,'Sam',2000,'2023-03-18' | 4,'Neha',1500,'2023-04-20'
+Library	BookID INT, Title VARCHAR(50), Author VARCHAR(30), Price DECIMAL(10,2)	1,'SQL Basics','John',300 | 2,'Python Guide','Amit',450 | 3,'Data Science','Neha',600 | 4,'AI Intro','Raj',500
+Employee	EmpID INT, EmpName VARCHAR(30), Dept VARCHAR(20), Salary FLOAT, City VARCHAR(20)	1,'Rohan','IT',60000,'Pune' | 2,'Mohan','HR',45000,'Mumbai' | 3,'Priya','Finance',55000,'Delhi' | 4,'Raj','Admin',40000,'Pune'
+Customer	CustID INT, CustName VARCHAR(30), City VARCHAR(20), Contact VARCHAR(15)	1,'Amit','Pune','9876543210' | 2,'Riya','Delhi','9988776655' | 3,'Sam','Chennai','9123456780' | 4,'Neha','Mumbai','9988001122'
+Sales	SaleID INT, Product VARCHAR(30), Quantity INT, TotalAmount DECIMAL(10,2)	1,'Laptop',2,100000 | 2,'Phone',5,125000 | 3,'Table',10,50000 | 4,'Chair',20,40000
+Attendance	AttendID INT, StudentName VARCHAR(30), Date DATE, Status VARCHAR(10)	1,'Amit','2023-01-01','Present' | 2,'Riya','2023-01-01','Absent' | 3,'Sam','2023-01-01','Present' | 4,'Neha','2023-01-01','Absent'
+Supplier	SupplierID INT, SupplierName VARCHAR(30), City VARCHAR(20), Rating INT	1,'Suresh','Pune',5 | 2,'Mahesh','Delhi',4 | 3,'Ravi','Mumbai',3 | 4,'Anil','Chennai',5
