@@ -1,0 +1,2 @@
+dictionary
+values={101:"nakul",sal:50000}
